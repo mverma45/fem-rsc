@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.perfume{
+    color: #808080;
+    text-transform: uppercase;
+}
+
+img {
+max-height: 350px;
+max-width: 400px'
+}
+
+.brand{
+    font-weight: 700;
+}
+.price{
+    font-weight: 700;
+    color: #008000;
+    font-size:20px;
+}
+
+.o_price{
+    color: #008000;
+}
+
+.cart{
+    background-color:#008000;
+    border: none;
+    color: #fff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.des{
+    color: #808080;
+}
+
+.cart:hover{
+    transition: all .5s;
+}
+
+.cart:active{
+    transform: scale(0.8);
+}
+
+.footer{
+    /* top | right | bottom | left */
+    margin: 5px 0 0 5px;
+    color: blue;
+    font-size:15px;
+}
