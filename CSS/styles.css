@@ -27,7 +27,7 @@ img {
   width: 30em;
 }
 
-@media (min-width: 480px) {
+@media (max-width: 580px) {
   img {
     min-height: 18em;
     min-width: 23em;
