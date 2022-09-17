@@ -12,13 +12,15 @@
 .perfume {
   color: #808080;
   text-transform: uppercase;
-  /* top | right | bottom | left */
-  margin: 2em 0 1.25em 1em;
+  margin-top: 2em;
+  margin-left: 1em;
+  margin-bottom: 1.25em;
 }
 
 .card {
-  /* top | right | bottom | left */
-  margin: 2em 0 1.25em 1em;
+  margin-top: 2em;
+  margin-left: 1em;
+  margin-bottom: 1.25em;
 }
 
 img {
@@ -27,31 +29,21 @@ img {
   width: 30em;
 }
 
-@media (min-width: 480px) {
-  img {
-    min-height: 18em;
-    min-width: 23em;
-    border-radius: 0.75em;
-    text-align: center;
-  }
-  containerContent {
-    display: block;
-  }
-}
-
 .brand {
   font-size: 2.5em;
   font-weight: 900;
-  /* top | right | bottom | left */
-  margin: 0.25em 0 0.75em 0.5em;
+  margin-top: 0.25em;
+  margin-left: 0.5em;
+  margin-bottom: 0.75em;
 }
 .price {
   font-weight: 700;
   font-size: 1.5em;
   color: #008000;
   /* font-size: 20px; */
-  /* top | right | bottom | left */
-  margin: 0.25em 0 0.75em 1em;
+  margin-top: 0.25em;
+  margin-left: 1em;
+  margin-bottom: 0.75em;
 }
 
 .o_price {
@@ -68,15 +60,16 @@ img {
   display: inline-block;
   font-size: 16px;
   cursor: pointer;
-  /* top | right | bottom | left */
-  margin: 0.25em 0 0.75em 2em;
+  margin-top: 0.25em;
+  margin-left: 2em;
+  margin-bottom: 0.75em;
   border-radius: 0.65em;
 }
 
 .des {
   color: #808080;
-  /* top | right | bottom | left */
-  margin: 0 0 1.25em 1.5em;
+  margin-left: 1.5em;
+  margin-bottom: 1.25em;
 }
 
 .cart:hover {
@@ -85,4 +78,11 @@ img {
 
 .cart:active {
   transform: scale(0.8);
+}
+
+.footer {
+  /* top | right | bottom | left */
+  margin: 5px 0 0 5px;
+  color: blue;
+  /* font-size: 15px; */
 }
