@@ -19,10 +19,12 @@
   <body>
     <div class="card">
       <div>
-        <img
-          src="./images/image-product-desktop.jpg"
-          alt="perfume"
-        />
+        <picture>
+          <source srcset="./images/image-product-desktop.jpg"
+            media="(min-width:598px)">
+            <img src="./images/image-product-mobile.jpg"
+          alt="perfume"/>
+        </picture>
       </div>
       <div class="containerContent">
         <div class="perfume">Perfume</div>
@@ -37,6 +39,11 @@
         <div><button class="cart">Add to Cart</button></div>
       </div>
     </div>
+    <!-- <div class="footer">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Manny Verma</a>. -->
     </div>
   </body>
 </html>
