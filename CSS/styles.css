@@ -28,11 +28,6 @@
 
 picture {
   float: left;
-<<<<<<< HEAD
-=======
-  height: 30em;
-  width: 30em;
->>>>>>> parent of d8163af (adding styles)
 }
 
 .brand {
@@ -90,5 +85,4 @@ picture {
   /* top | right | bottom | left */
   margin: 5px 0 0 5px;
   color: blue;
-  /* font-size: 15px; */
 }
