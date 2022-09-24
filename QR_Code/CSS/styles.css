@@ -18,15 +18,12 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
   padding: 3em;
 }
 
 .container .card {
   display: flex;
   flex-direction: column;
-  /* justify-content: center;
-  align-items: center; */
   position: relative;
   height: 45em;
   background: white;
@@ -34,29 +31,37 @@ body {
   padding: 4.2em;
   box-shadow: 0.5em 0.5em #a275cc;
   transition: 0.3s ease-in-out;
-  /* margin-top: 2em; */
+  border-radius: 0.95em;
 }
 
-.container .card .heading_qr {
-  position: relative;
-  width: 200px;
-  height: 100px;
-  box-shadow: 0.5em 0.5em #a275cc;
-  /* display: flex;
-  justify-content: center; */
+.card:hover {
+  transform: scale(0.95);
 }
 
 .heading_qr {
   display: flex;
+  flex-direction: row;
+  font-size: 1.7em;
+  align-items: center;
   justify-content: center;
-  font-size: 1.5em;
   font-weight: 700;
 }
 
-/* .para {
+.para {
   display: flex;
+  flex-direction: row;
   justify-content: center;
-} */
+  margin-top: 1.25em;
+  font-weight: 500;
+}
+
+img {
+  border-radius: 0.95em;
+}
+
+.imgQr:hover img {
+  transform: scale(1.01);
+}
 
 .attribution {
   display: flex;
