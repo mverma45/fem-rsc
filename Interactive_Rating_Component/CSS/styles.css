@@ -4,51 +4,92 @@
 }
 
 body {
-  background-color: #000000;
+  background-color: hsl(216, 12%, 8%);
   color: #ffff;
   font-size: 15px;
   font-family: "Fraunces", serif;
   font-family: "Outfit", sans-serif;
 }
 
-.container {
+.main-container {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
   text-align: center;
-  padding-left: 15em;
-  height: 30em;
+  background-color: hsl(213, 19%, 18%);
+  /* top | right | bottom | left */
+  padding: 0 5em 0 5em;
+  margin: 0 5em 0 5em;
+  border-radius: 5%;
+  height: 20em;
   width: 20em;
-  border: 1px solid #ccc;
 }
 
-.ratingClass {
-  position: relative;
+.main-container ul {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   text-align: center;
-  height: 5em;
-}
-
-/* .rating {
-  position: relative;
-  display: flex;
-  flex-direction: row;
   justify-content: space-between;
-  text-align: space-between;
-} */
+  list-style-type: none;
+}
 
-.submit {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  text-align: center;
+.main-container img {
+  width: 25px;
+  height: 25px;
+}
+
+.main-container .btn {
+  /* top | right | bottom | left */
+  padding: 0.25em 1em 0.25em 1em;
+  border-radius: 50%;
+}
+
+.main-container .btn:focus {
+  color: hsl(216, 12%, 54%);
+}
+
+.btn:hover {
+  color: hsl(25, 97%, 53%);
+}
+
+.submit .submitBtn {
+  /* top | right | bottom | left */
+  padding: 0.25em 1em 0.25em 1em;
+  width: 100%;
+}
+
+.submitBtn:hover {
+  color: hsl(25, 97%, 53%);
 }
 
 .submitBtn {
   padding: 1em;
   margin: 1em;
+}
+
+.thankyou-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: hsl(213, 19%, 18%);
+  padding: 0 5em 0 5em;
+  margin: 0 5em 0 5em;
+  border-radius: 5%;
+  height: 20em;
+  width: 20em;
+}
+
+.rating-thankyou {
+  display: inline-block;
+  background-color: hsl(217, 12%, 63%);
+  /* top | right | bottom | left */
+  padding: 0.3rem 1rem 0.3rem 0.3rem;
+  color: hsl(25, 97%, 53%);
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .attribution {
