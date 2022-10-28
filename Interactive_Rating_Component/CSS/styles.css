@@ -25,6 +25,7 @@ body {
   border-radius: 5%;
   height: 20em;
   width: 40em;
+  box-sizing: border-box;
 }
 
 .main-container ul {
@@ -80,6 +81,7 @@ body {
   border-radius: 5%;
   height: 20em;
   width: 40em;
+  box-sizing: border-box;
 }
 
 .rating-thankyou {
