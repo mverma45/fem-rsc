@@ -23,7 +23,8 @@ body {
   margin: 0 5em 0 5em;
   border-radius: 5%;
   height: 20em;
-  width: 20em;
+  width: 25em;
+  box-sizing: border-box;
 }
 
 .main-container ul {
@@ -77,7 +78,8 @@ body {
   margin: 0 5em 0 5em;
   border-radius: 5%;
   height: 20em;
-  width: 20em;
+  width: 25em;
+  box-sizing: border-box;
 }
 
 .rating-thankyou {
