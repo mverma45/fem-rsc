@@ -1,0 +1,25 @@
+@import url("https: //fonts.google.com/specimen/Figtree");
+
+* {
+    margin: 0;
+    padding: 0;
+    font-weight: 600, 800;
+}
+
+img {
+    margin: 3em 2em;
+    width: 40em;
+    height: 30em;
+}
+
+@media (max-width: 700px) {
+    img {
+        min-height: 250px;
+        min-width: 150px;
+    }
+
+    .attribution {
+        text-align: center;
+    }
+
+}
