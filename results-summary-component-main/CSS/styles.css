@@ -22,7 +22,9 @@ body {
 }
 
 @media (max-width: 500px) {
-	.right {
+	.card {
+		display: flex;
+		flex-direction: column;
 		min-width: 100px;
 	}
 }
